@@ -29,23 +29,14 @@ A simple Flask web application that allows users to upload multiple images and c
 2. Create and activate a virtual environment:
    python -m venv venv
 
-   # Windows
+   #### Windows
 
    venv\Scripts\activate
 
-   # Mac/Linux
+   #### Mac/Linux
 
    source venv/bin/activate
 
 3. Install required packages: pip install -r requirements.txt
 
 4. To run the app: python app.py
-
-## Project Structure
-
-├── app.py
-├── requirements.txt
-├── templates/
-│ └── home.html
-├── uploads/
-└── .gitignore
